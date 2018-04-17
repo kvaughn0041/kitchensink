@@ -1,0 +1,104 @@
+body {
+    margin-top: 0;
+    background-color: rgb(128, 141, 159);
+    background-image: url("sink2.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#page
+{
+    
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid rgb(119, 75, 77);
+    padding: 1em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #314fd6;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #d6a431;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #31d6b8;
+}
+
+
+#header { background-color: #314fd6; color: #d6a431; text-align: center;}
+
+#content { background-color: White;  padding: 5px;}
+
+#content h1 {color: #314fd6;}
+#content h2 {color: #314fd6;}
+#content p {color: #314fd6;}
+#content label {color: #314fd6;}
+
+#footer { background-color: #314fd6; color: #d6a431; text-align: center}
+
+form {
+    margin: .5em 0 2em;
+}
+form label {
+    width: 6.5em;
+    text-align: right;
+    padding-right: .5em;
+    padding-bottom: .5em;
+    float: left;
+}
+form input {
+    float: left;
+}
+form input[text] {
+    width: 15em;
+}
+form select {
+    float: left;
+}
+form br {
+    clear: left;
+}
+/* The section below is to be customised to change the table layout*/
+#sports {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#sports td, #sports th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#sports tr:nth-child(even){background-color: #f2f2f2;}
+
+#sports tr:hover {background-color: #ddd;}
+
+#sports th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lightgrey;
+    color: white;
+    font: bold;
+}
